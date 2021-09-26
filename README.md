@@ -1,14 +1,14 @@
-# Modified Version Of [Media Search bot](https://github.com/MRK-YT/MT-Media-Search-bot)
+# Modified Version Of [Media Search bot](https://github.com/Nesmaldq/MT-Media-Search)
 
 </a>
 </p>
 <p align="center">
-  <a href="https://github.com/MRK-YT/MT-Media-Search-bot/stargazers">
+  <a href="https://github.com/Nesmaldq/MT-Media-Search/stargazers">
     <img src="https://img.shields.io/github/stars/MRK-YT/MT-Media-Search-bot?style=social">
 
   </a>
   
-  <a href="https://github.com/MRK-YT/MT-Media-Search-bot/fork">
+  <a href="https://github.com/Nesmaldq/MT-Media-Search/fork">
     <img src="https://img.shields.io/github/forks/MRK-YT/MT-Media-Search-bot?label=Fork&style=social">
 
   </a>  
@@ -35,7 +35,7 @@
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
+* Original [Repo](https://github.com/Nesmaldq/MT-Media-Search)
 
 
 ## Support
