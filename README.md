@@ -29,7 +29,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Media-Search-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nesmaldq/MT-Media-Search)
 ### Hard Way
 
 
@@ -39,9 +39,9 @@
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/subinps_bot)
+Contact Me On [Telegram](https://t.me/TELE_MOVIES2021)
 
-[Update Channel](https://t.me/Mo_Tech_YT)
+[Update Channel](https://t.me/TELE_MOVIES2021)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
