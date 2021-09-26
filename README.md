@@ -1,4 +1,4 @@
-# [Media Search bot](https://github.com/Mahesh0253/Media-Search-bot)
+# [Media Search bot](https://github.com/Mahesh0253/Media-Search-bota)
 
 * Index channel or group files for inline search.
 * When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
@@ -88,7 +88,7 @@ Contributions are welcome.
 ## Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ## Support
-[Update Channel](https://t.me/botxupdates) and [Support Group](https://t.me/botxsupport)
+[Update Channel](https://t.me/TELE_MOVIES2021) and [Support Group](https://t.me/MOVIE_REQUEST_GROUP_202)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
