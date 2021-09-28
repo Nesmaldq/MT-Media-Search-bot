@@ -1,14 +1,14 @@
-# Modified Version Of [Media Search bot](https://github.com/Nesmaldq/MT-Media-Search)
+#  Modified Version Of [Media Search bot](https://github.com/MRK-YT/MT-Media-Search-bot)
 
 </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Nesmaldq/MT-Media-Search/stargazers">
+  <a href="https://github.com/MRK-YT/MT-Media-Search-bot/stargazers">
     <img src="https://img.shields.io/github/stars/MRK-YT/MT-Media-Search-bot?style=social">
 
   </a>
   
-  <a href="https://github.com/Nesmaldq/MT-Media-Search/fork">
+  <a href="https://github.com/MRK-YT/MT-Media-Search-bot/fork">
     <img src="https://img.shields.io/github/forks/MRK-YT/MT-Media-Search-bot?label=Fork&style=social">
 
   </a>  
@@ -29,19 +29,19 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nesmaldq/MT-Media-Search)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MRK-YT/MT-Media-Search-bot)
 ### Hard Way
 
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
-* Original [Repo](https://github.com/Nesmaldq/MT-Media-Search)
+* Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/TELE_MOVIES2021)
+Contact Me On [Telegram](https://t.me/subinps_bot)
 
-[Update Channel](https://t.me/TELE_MOVIES2021)
+[Update Channel](https://t.me/Mo_Tech_YT)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
