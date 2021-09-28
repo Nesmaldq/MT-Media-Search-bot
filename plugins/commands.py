@@ -32,7 +32,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url="https://t.me/TELE_MOVIES2021")
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -89,7 +89,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url="https://t.me/TELE_MOVIES2021")
+                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
                     ]
                 ]
             )
