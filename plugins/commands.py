@@ -32,7 +32,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -66,7 +66,9 @@ async def start(bot, cmd):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-               
+                    [
+                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                    ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
                     ]
@@ -86,10 +88,10 @@ async def start(bot, cmd):
             text="**Please Join My Updates Channel to use this Bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                   [
-                               InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
-                   ],
-                   ]
+                    [
+                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                    ]
+                ]
             )
         )
     else:
@@ -101,8 +103,8 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                       
-                    
+                        InlineKeyboardButton("Bot Updates", url="https://t.me/TELE_MOVIES2021")
+                    ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
                     ]
@@ -193,7 +195,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('JOIN Channel', url='https://t.me/TELE_MOVIES2021'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/TELE_MOVIES2021'),
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
