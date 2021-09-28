@@ -31,8 +31,8 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
-                            ],
+                            InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        ]
                     ]
                 ),
                 parse_mode="markdown"
@@ -82,7 +82,7 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬FILM/SERIES {search},@TM TELE MOVES ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, ‎ ­ caption=f"<b>🎬FILM/SERIES{search} ‌‌‌‌"<b> @TM‎ FILM FACTORY ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
                 await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
@@ -101,7 +101,7 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>🎬FILM/SERIES {search},@TM TELE MOVES ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster,  ­caption=f"<b>🎬FILM/SERIES{search} ‌‌‌‌"<b> @TM‎ FILM FACTORY  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -146,7 +146,7 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>🎬FILM/SERIES {search},@TM TELE MOVES ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster,  ‌‌‌‌‎ caption=f"<b>🎬FILM/SERIES{search} ‌"<b> @TM‎ FILM FACTORY­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
                 await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
@@ -164,7 +164,7 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>🎬FILM/SERIES {search},@TM TELE MOVES ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>🎬FILM/SERIES{search} ‌‌‌‌"<b> @TM‎ FILM FACTORY ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(f"<b>Move {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -273,7 +273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/TELE_MOVIES2021'),
+                    InlineKeyboardButton('Update Channel', url='t.me/TELE_MOVIES2021'),
                     InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
                 ]
                 ]
@@ -345,4 +345,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("Isn't it a little more interesting?👀",show_alert=True)
+        await query.answer("Isn't it a little more interesting👀",show_alert=True)
