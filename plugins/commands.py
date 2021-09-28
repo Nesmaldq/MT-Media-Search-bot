@@ -32,7 +32,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
+                                InlineKeyboardButton("📢 Join Updates Channel 📢", url="https://t.me/TELE_MOVIES2021")
                             ],
                             [
                                 InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -89,7 +89,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=https://t.me/TELE_MOVIES2021)
+                        InlineKeyboardButton("📢 Join Updates Channel 📢", url="https://t.me/TELE_MOVIES2021")
                     ]
                 ]
             )
@@ -102,8 +102,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔍Search Here🔍", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Movie Updates", url="https://t.me/TELE_MOVIES2021")
+                        InlineKeyboardButton("🔍Search Here🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("📀Movies Updates🎫", url="https://t.me/TELE_MOVIES2021")
                     ],
                     
                 ]
